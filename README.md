@@ -25,4 +25,8 @@ These are models you can use to test or finetune<br>
 - :hugs: Model https://huggingface.co/Kamtera/persian-tts-male-glow_tts
 - :hugs: Model https://huggingface.co/Kamtera/persian-tts-female-glow_tts
 
-#
+# Datasets
+Models trained on these datasets : 
+- https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset
+- https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale
+
