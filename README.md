@@ -4,13 +4,13 @@ This repository contains sample codes for training text to speech models <br>
 Feel free to ask your questions [issues](https://github.com/karim23657/Persian-tts-coqui/issues)
 <div dir="rtl">
 این مخزن شامل نمونه کدهای لازم برای آموزش مدل های متن به صوت فارسی است
-سوالاتتان را در [issues](https://github.com/karim23657/Persian-tts-coqui/issues) مطرح کنید 
+سوالاتتان را در <a href="https://github.com/karim23657/Persian-tts-coqui/issues">issues</a> مطرح کنید 
 </div>
 
 # How to train ?
 Sample codes and notebooks are available at [recepies](https://github.com/karim23657/Persian-tts-coqui/tree/main/recepies) folder
 <div dir="rtl">
-نمونه کد ها و نوت بوک ها در پوشه [recepies](https://github.com/karim23657/Persian-tts-coqui/tree/main/recepies) موجود هستند
+نمونه کد ها و نوت بوک ها در پوشه <a href="https://github.com/karim23657/Persian-tts-coqui/tree/main/recepies">recepies</a> موجود هستند
 </div>
 
 # Pretrained models
