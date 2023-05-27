@@ -38,6 +38,7 @@ These are models you can use to test or finetune<br>
 Models trained on these datasets : 
 - https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset
 - https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale
+- https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male
 
 - If you'v created a dataset or found any good datasets on the web you can share with us [here](https://github.com/karim23657/Persian-tts-coqui/issues/2).
 
