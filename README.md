@@ -21,7 +21,9 @@ These are models you can use to test or finetune<br>
 
 |Model|Dataset|
 |----|------|
-|[vits female](https://huggingface.co/Kamtera/persian-tts-female-vits)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
+|[vits female (best)](https://huggingface.co/Kamtera/persian-tts-female-vits)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
+|[vits male1 (best)](https://huggingface.co/Kamtera/persian-tts-male1-vits)|[persian-tts-dataset-male](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male)|
+|[vits female1](https://huggingface.co/Kamtera/persian-tts-female1-vits)|[ParsiGoo](https://github.com/karim23657/ParsiGoo)|
 |[vits male](https://huggingface.co/Kamtera/persian-tts-male-vits)|[persian-tts-dataset](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset)|
 |[glowtts female](https://huggingface.co/Kamtera/persian-tts-female-glow_tts)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
 |[glowtts male](https://huggingface.co/Kamtera/persian-tts-male-glow_tts)|[persian-tts-dataset](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset)|
@@ -39,15 +41,29 @@ Models trained on these datasets :
 - https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset
 - https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale
 - https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male
+- https://github.com/karim23657/ParsiGoo
 
 - If you'v created a dataset or found any good datasets on the web you can share with us [here](https://github.com/karim23657/Persian-tts-coqui/issues/2).
 
-## Use trained model
+## Test trained model
+* install TTS and Espeak
+```
+pip install -q TTS
+sudo apt-get -y install espeak-ng
+```
 * predict one text from commandline
 ```
 tts --text "شیش سیخ جیگر" --model_path "best_model.ckpt" --config_path "config.json"
 ```
 * From python API
+```python
+from TTS.api import TTS
+tts=TTS(model_path="https://huggingface.co/Kamtera/persian-tts-male1-vits/resolve/main/checkpoint_88000.pth",
+        config_path="https://huggingface.co/Kamtera/persian-tts-male1-vits/resolve/main/config.json")
+tts.tts_to_file(".زندگی فقط یک بار است؛ از آن به خوبی استفاده کن",file_path='output.wav')
+```
+
+* Another way :
 ```python
 from TTS.config import load_config
 from TTS.utils.manage import ModelManager
@@ -66,6 +82,8 @@ wavs = synthesizer.tts(text)
 synthesizer.save_wav(wavs, 'sp.wav')
 
 ```
+
+
 ## usefull links 
 
 - https://github.com/coqui-ai/TTS
