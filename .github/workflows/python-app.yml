@@ -22,8 +22,8 @@ jobs:
 
     - name: Create and activate a virtual environment
       run: |
-        python -m venv C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv
-        .\C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv\Scripts\Activate.ps1
+        python -m venv "C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv"
+        & "C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv\Scripts\Activate.ps1"
       shell: pwsh
 
     - name: Upgrade pip
