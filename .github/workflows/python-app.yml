@@ -1,6 +1,10 @@
-name: Python package
+name: Windows Python application
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -8,15 +12,32 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3
+
     - name: Set up Python 3.10
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
-        python-version: 3.10
+        python-version: "3.10"
+
+    - name: Create and activate a virtual environment
+      run: |
+        python -m venv C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv
+        .\C:\Users\salam M\Desktop\aaa\Persian-tts-coquiiv\Scripts\Activate.ps1
+      shell: pwsh
+
+    - name: Upgrade pip
+      run: python -m pip install --upgrade pip
+
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pytest
-    - name: Run tests with pytest
-      run: |
-        pytest
+        python -m pip install flake8 pytest
+        if (Test-Path requirements.txt) { pip install -r requirements.txt }
+
+    - name: Lint with flake8
+      run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+      shell: pwsh
+
+    - name: Test with pytest
+      run: pytest
+      shell: pwsh
