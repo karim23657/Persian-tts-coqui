@@ -5,21 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
+            "name": "Attach",
+            "port": 9229,
             "request": "attach",
-            "name": "Attach by Process ID",
-            "processId": "${command:PickJavaProcess}"
-        },
-        
-        
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${file}"
-        }
+            "type": "node"
+        },
+
+       
+        
+      
     ]
 }
