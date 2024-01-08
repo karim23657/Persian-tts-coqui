@@ -93,6 +93,3 @@ synthesizer.save_wav(wavs, 'sp.wav')
 🤩 If you have any questions, feedback, or suggestions, feel free to reach out to me at alias@karim23657.anonaddy.com ! I'm always happy to help.
 
 🤩 در صورتی که سوال، بازخورد یا پیشنهادی دارید، با من  از طریق ایمیل alias@karim23657.anonaddy.com در تماس باشید! خوشحال میشم که بتونم کمک کنم.
-
-
-kl
