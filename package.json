@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "catch": "^1.0.48",
+    "npm": "^10.2.5",
+    "package-lock.json": "^1.0.0",
+    "package.json": "^2.0.1"
+  }
+}
