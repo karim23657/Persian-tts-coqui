@@ -1,0 +1,25 @@
+{
+  "name": "catch",
+  "version": "1.0.48",
+  "description": "catch C++ unit test framework",
+  "main": "include_dirs.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smikes/Catch.git"
+  },
+  "author": "philsquared",
+  "contributors": [
+     "sam mikes"
+  ],
+  "license": "Boost",
+  "bugs": {
+    "url": "https://github.com/smikes/Catch/issues"
+  },
+  "homepage": "https://github.com/smikes/Catch"
+}
