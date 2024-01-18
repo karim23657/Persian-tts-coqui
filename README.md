@@ -86,7 +86,11 @@ synthesizer.save_wav(wavs, 'sp.wav')
 
 
 ## usefull links 
+If you want more persian text to speech tools: 
+ابزار ها صوت به متن فارسی بیشتر :
+- https://github.com/karim23657/awesome-Persian-Speech#tts-tools
 
+Any issue about tts library:
 - https://github.com/coqui-ai/TTS
 
 ## ❓ Questions
