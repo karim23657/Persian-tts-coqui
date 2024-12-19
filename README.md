@@ -1,4 +1,5 @@
-# Persian-tts-coqui [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS)
+# Persian-tts-coqui [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS)  [![Telegram channel](https://img.shields.io/badge/Telegram-channel-blue?style=flat-square&logo=telegram)](https://t.me/persian_tts)
+
 Persian/Farsi text to speech(TTS) training using coqui tts (Online demo : [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS))<br>
 This repository contains sample codes for training text to speech models <br>
 Feel free to ask your questions [issues](https://github.com/karim23657/Persian-tts-coqui/issues)
@@ -94,6 +95,8 @@ Any issue about tts library:
 - https://github.com/coqui-ai/TTS
 
 ## ❓ Questions
-🤩 If you have any questions, feedback, or suggestions, feel free to reach out to me at alias@karim23657.anonaddy.com ! I'm always happy to help.
+🤩 If you have any questions, feedback, or suggestions, feel free to reach out to me at alias@karim23657.anonaddy.com or [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://t.me/persian_tts_chat) ! I'm always happy to help.
 
-🤩 در صورتی که سوال، بازخورد یا پیشنهادی دارید، با من  از طریق ایمیل alias@karim23657.anonaddy.com در تماس باشید! خوشحال میشم که بتونم کمک کنم.
+🤩 در صورتی که سوال، بازخورد یا پیشنهادی دارید، با من  از طریق ایمیل alias@karim23657.anonaddy.com یا تلگرام [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://t.me/persian_tts_chat) در تماس باشید! خوشحال میشم که بتونم کمک کنم.
+
+https://t.me/persian_tts
