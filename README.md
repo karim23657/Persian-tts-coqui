@@ -3,9 +3,11 @@
 Persian/Farsi text to speech(TTS) training using coqui tts (Online demo : [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS))<br>
 This repository contains sample codes for training text to speech models <br>
 Feel free to ask your questions [issues](https://github.com/karim23657/Persian-tts-coqui/issues)
+Join our telegram channel : https://t.me/persian_tts
 <div dir="rtl">
 این مخزن شامل نمونه کدهای لازم برای آموزش مدل های متن به صوت فارسی است
 سوالاتتان را در <a href="https://github.com/karim23657/Persian-tts-coqui/issues">issues</a> مطرح کنید 
+عضو کانال تلگرام ما شوید  : https://t.me/persian_tts
 </div>
 
 
@@ -27,6 +29,7 @@ These are models you can use to test or finetune<br>
 |[vits male1 (best)](https://huggingface.co/Kamtera/persian-tts-male1-vits)|[persian-tts-dataset-male](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male)|
 |[vits female1](https://huggingface.co/Kamtera/persian-tts-female1-vits)|[ParsiGoo](https://github.com/karim23657/ParsiGoo)|
 |[vits male](https://huggingface.co/Kamtera/persian-tts-male-vits)|[persian-tts-dataset](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset)|
+|[vits female2](https://huggingface.co/karim23657/persian-tts-female-GPTInformal-Persian-vits)|[GPTInformal-Persian](https://huggingface.co/datasets/MahtaFetrat/GPTInformal-Persian)|
 |[glowtts female](https://huggingface.co/Kamtera/persian-tts-female-glow_tts)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
 |[glowtts male](https://huggingface.co/Kamtera/persian-tts-male-glow_tts)|[persian-tts-dataset](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset)|
 |[tacotron2 female](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
