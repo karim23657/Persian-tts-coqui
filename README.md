@@ -3,10 +3,12 @@
 Persian/Farsi text to speech(TTS) training using coqui tts (Online demo : [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS))<br>
 This repository contains sample codes for training text to speech models <br>
 Feel free to ask your questions [issues](https://github.com/karim23657/Persian-tts-coqui/issues)
+
 Join our telegram channel : https://t.me/persian_tts
 <div dir="rtl">
 این مخزن شامل نمونه کدهای لازم برای آموزش مدل های متن به صوت فارسی است
 سوالاتتان را در <a href="https://github.com/karim23657/Persian-tts-coqui/issues">issues</a> مطرح کنید 
+        
 عضو کانال تلگرام ما شوید  : https://t.me/persian_tts
 </div>
 
