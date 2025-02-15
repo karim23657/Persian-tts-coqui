@@ -1,6 +1,6 @@
-# Persian-tts-coqui [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS)  [![Telegram channel](https://img.shields.io/badge/Telegram-channel-blue?style=flat-square&logo=telegram)](https://t.me/persian_tts)
+# Persian-tts-coqui [![Hugging Face Spaces1](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://karim23657-persian-tts-sherpa.hf.space/?__theme=system) [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS) [![Telegram channel](https://img.shields.io/badge/Telegram-channel-blue?style=flat-square&logo=telegram)](https://t.me/persian_tts)
 
-Persian/Farsi text to speech(TTS) training using coqui tts (Online demo : [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS))<br>
+Persian/Farsi text to speech(TTS) training using coqui tts (Online demo : [![Hugging Face Spaces1](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://karim23657-persian-tts-sherpa.hf.space/?__theme=system) [![Hugging Face Spaces](https://cdn.statically.io/gh/karim23657/blogmaterials/main/assets/hf.svg)](https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS))<br>
 This repository contains sample codes for training text to speech models <br>
 Feel free to ask your questions [issues](https://github.com/karim23657/Persian-tts-coqui/issues)
 
@@ -40,7 +40,9 @@ These are models you can use to test or finetune<br>
 
 * Share your trained models [here](https://github.com/karim23657/Persian-tts-coqui/issues/1)
 
-- :hugs: huggingface Demo https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS
+- :hugs: huggingface Demo : 
+    - https://karim23657-persian-tts-sherpa.hf.space/
+    - https://huggingface.co/spaces/Kamtera/Persian-tts-CoquiTTS
 
 
 # Datasets
